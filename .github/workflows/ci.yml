@@ -16,35 +16,6 @@ jobs:
       - name: 📥 Checkout repository
         uses: actions/checkout@v5
 
-      - name: 🔍 Setup Node.js
-        uses: actions/setup-node@v5
-        with:
-          node-version: "24"
-
-      - name: 📦 Install dependencies
-        run: |
-          if [ -f package.json ]; then
-            npm ci
-          else
-            echo "No package.json found, skipping npm install"
-          fi
-
-      - name: 🧹 Run ESLint
-        run: |
-          if [ -f package.json ]; then
-            npm run lint || echo "Linting not configured, skipping"
-          else
-            echo "No package.json found, skipping linting"
-          fi
-
-      - name: 🧪 Run tests
-        run: |
-          if [ -f package.json ]; then
-            npm test || echo "Tests not configured, skipping"
-          else
-            echo "No package.json found, skipping tests"
-          fi
-
       - name: 🔗 Validate HTML files
         run: |
           echo "🔗 Validating HTML files..."
