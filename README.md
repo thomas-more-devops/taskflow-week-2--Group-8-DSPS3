@@ -1,4 +1,4 @@
-# TaskFlow - Task Management Application
+# TaskFlow - Task Management Application V2.0.0
 
 > A modern, responsive task management app built with HTML, CSS, and JavaScript
 
@@ -328,13 +328,13 @@ This TaskFlow application demonstrates:
 - **Performance**: Optimized for fast loading and smooth interactions
 - **Maintainability**: Clean, well-documented, and structured code
 
-## 🎯 Future Enhancements
+## 🎯 V2.0.0 Enhancements
 
 Potential improvements for version 2.0:
-- [ ] **Task Categories**: Color-coded categories (Work, Personal, Shopping)
-- [ ] **Due Dates**: Calendar integration and deadline reminders
-- [ ] **Priority Levels**: High, Medium, Low priority sorting
-- [ ] **Search & Filter**: Advanced task filtering capabilities
+- [* ] **Task Categories**: Color-coded categories (Work, Personal, Shopping)
+- [ *] **Due Dates**: Calendar integration and deadline reminders
+- [ *] **Priority Levels**: High, Medium, Low priority sorting
+- [ *] **Search & Filter**: Advanced task filtering capabilities
 - [ ] **Dark Mode**: Toggle between light and dark themes
 - [ ] **Collaboration**: Share tasks with team members
 - [ ] **Sync**: Cloud synchronization across devices
